@@ -27,6 +27,7 @@
 		C5418C6D21B76E9B005189BA /* GCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C5418C6821B76E9A005189BA /* GCDQueue.m */; };
 		C5418C9321B770C8005189BA /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C5418C9221B770C8005189BA /* DeviceInfo.m */; };
 		C5418C9721B7715A005189BA /* DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C5418C9621B7715A005189BA /* DateFormatter.m */; };
+		C5A9FDAD21B7AED600560551 /* RegexManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A9FDAB21B7AED600560551 /* RegexManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,8 @@
 		C5418C9221B770C8005189BA /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
 		C5418C9521B7715A005189BA /* DateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateFormatter.h; sourceTree = "<group>"; };
 		C5418C9621B7715A005189BA /* DateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateFormatter.m; sourceTree = "<group>"; };
+		C5A9FDAB21B7AED600560551 /* RegexManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexManager.m; sourceTree = "<group>"; };
+		C5A9FDAC21B7AED600560551 /* RegexManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				C529237F21B76BC200E0749C /* UtilitiesLibsHeaders.h */,
+				C5A9FDAA21B7AEAC00560551 /* RegexManager */,
 				C5418C9421B77145005189BA /* DateFormatter */,
 				C5418C9021B770B9005189BA /* DeviceInfo */,
 				C5418C8F21B7701A005189BA /* SimpleNSLog */,
@@ -219,6 +223,15 @@
 			path = DateFormatter;
 			sourceTree = "<group>";
 		};
+		C5A9FDAA21B7AEAC00560551 /* RegexManager */ = {
+			isa = PBXGroup;
+			children = (
+				C5A9FDAC21B7AED600560551 /* RegexManager.h */,
+				C5A9FDAB21B7AED600560551 /* RegexManager.m */,
+			);
+			path = RegexManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -300,6 +313,7 @@
 				C5418C9721B7715A005189BA /* DateFormatter.m in Sources */,
 				C5418C5E21B76E55005189BA /* File.m in Sources */,
 				C5418C6C21B76E9B005189BA /* GCDSemaphore.m in Sources */,
+				C5A9FDAD21B7AED600560551 /* RegexManager.m in Sources */,
 				C5418C5F21B76E55005189BA /* FileManager.m in Sources */,
 				C5418C5821B76E09005189BA /* UIButton+Inits.m in Sources */,
 				C5418C5421B76D89005189BA /* HexColors.m in Sources */,

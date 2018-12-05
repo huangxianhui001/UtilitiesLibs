@@ -28,4 +28,6 @@
 
 #import "DateFormatter/DateFormatter.h"
 
+#import "RegexManager/RegexManager.h"
+
 #endif /* UtilitiesLibsHeaders_h */
